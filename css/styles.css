@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import "reset.css"; 
+/* reset.css 는 html 의 기본적으로 
+설정되있는 margin 값 등을 0으로 한다. */
+
+/* nomalize.css 는 각기 다른 브라우저에서의 기준을 만들어준다.
+예를 들면 h1 태그를 각기 다른 브라우저에서 28px로 고정시킨게 설정이 가능하다.
+본 강의에서는 nomalize.css 보다 reset.css 를 더 좋게 보아 reset.css 를 사용합니다. */
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+
+/* 특정 태그나 아이콘들이 사라지는 이유... */
+/* padding 을 추가 할 때 box 의 크기를 늘이지 말아달라. */
+/* 이게 없으면 width : 100%; 에 + padding size 가 추가되어 브라우저보다 커짐 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 45px 20px;
+    color: #020202;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    height: 100000px;
+}
+
+a {
+    color: inherit;
+}

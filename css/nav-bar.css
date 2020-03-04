@@ -1,0 +1,40 @@
+
+.nav {
+    background-color: #fcfcfc;
+    position: fixed;  /* nav 를 sticky 하게 만들기 위해 */
+    width: 100%;       /* position fixed 는 width, height 가 필요함.. */
+    padding: 20px 50px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav i {
+    font-size: 25px;
+}
+
+.nav .nav__list-link {
+    position: relative;
+}
+
+.nav .nav__badge {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    color: white;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 10px;
+}

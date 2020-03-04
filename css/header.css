@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* header 안 content 들을 정렬 */
+    align-items: center;            /* header 의 item 들을 중앙으로 */
+    margin-bottom: 30px;
+}
+
+.header .header__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header__icon {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header .header__header-column {
+    display: flex;
+    align-items: center;
+}
+
+.header .header__back-btn {
+    font-size: 24px;
+    margin-right: 20px;
+}
