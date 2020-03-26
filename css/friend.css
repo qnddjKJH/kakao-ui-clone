@@ -1,0 +1,51 @@
+.friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend .friend__avatar {
+    width: 47px;
+    height: 45px;
+    border-radius: 38%;
+}
+
+/* . 을 띄우면 안에 있는 클래스를 뜻하고 붙이면 두 클래스 모두 적용한다 */
+.friend__avatar.g-avatar { 
+    width: 67px;
+    height: 65px;
+}
+
+.friend__avatar.m-avatar {
+    widows: 58px;
+    height: 55px;
+}
+
+.friend .friend__column {
+    display: flex;
+    align-items: center;
+}
+
+.friend__column .friend__avatar { 
+    margin-right: 15px;
+}
+
+.friend__content .friend__name {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+    opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+    font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+    font-size: 12px;
+}
