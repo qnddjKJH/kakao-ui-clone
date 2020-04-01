@@ -5,8 +5,8 @@
 }
 
 .friend .friend__avatar {
-    width: 47px;
-    height: 45px;
+    width: 57px;
+    height: 55px;
     border-radius: 38%;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .friend__content .friend__name {
+    font-weight: 400;
     display: block;
     margin-bottom: 5px;
 }
@@ -48,4 +49,28 @@
 .friend__content .friend__status,
 .friend .chat__timestamp {
     font-size: 12px;
+}
+
+.friend .friend__now-listening {
+    border: 2px solid #5aad77;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.friend__now-listening span {
+    opacity: 0.7;
+}
+
+.friend__now-listening i {
+    font-size: 10px;
+}
+
+.friend__add-btn {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
 }

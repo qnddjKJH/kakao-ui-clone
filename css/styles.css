@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* dribble 웹 사이트는 이미 꾸며진 디자인들이 만들어져 있다. 참고하여 디자인 하면 좋다. 
+ 만들어진 chat 폼은 dribble 웹 사이트의 디자인 폼을 참고하여 만들어졌다. */
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300:400, 600, 700&display=swap');
 @import "reset.css"; 
 /* reset.css 는 html 의 기본적으로 
 설정되있는 margin 값 등을 0으로 한다. */
@@ -10,6 +14,10 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
 
 /* 특정 태그나 아이콘들이 사라지는 이유... */
 /* padding 을 추가 할 때 box 의 크기를 늘이지 말아달라. */
