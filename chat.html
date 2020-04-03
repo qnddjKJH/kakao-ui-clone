@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="chat-body">
     <!-- 
         무료 아이콘 
         fontawesome.com 을 사용하였습니다.
@@ -46,23 +46,35 @@
         </div>
     </header>
 
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__messages">
             <span class="chat__timestamp">
                 Friday, January 11, 2019
             </span>
             <li class="incoming-message message">
-                <img src="imgs/bori.jpg" class="g-avatar message__avatar"/>
+                <img src="imgs/bori.jpg" class="m-avatar message__avatar"/>
                 <div class="message__content">
                     <span class="message__author">Best Friend</span>
-                    <div class="message__bubble">Congrats I love you</div>
+                    <span class="message__bubble">어디야?</span>
                 </div>
                 <span class="message__timestamp"></span>
             </li>
-            <li class="incoming-message message">
-                <span class="message__timestamp"></span>
+            <li class="sent-message message">
                 <div class="message__content">
-                    <div class="message__bubble">Thanks!</div>
+                    <span class="message__bubble">가고 있어</span>
+                </div>
+            </li>
+            <li class="incoming-message message">
+                <img src="imgs/bori.jpg" class="m-avatar message__avatar"/>
+                <div class="message__content">
+                    <span class="message__author">Best Friend</span>
+                    <span class="message__bubble">배고파 빨리 와</span>
+                </div>
+                <span class="message__timestamp"></span>
+            </li>
+            <li class="sent-message message">
+                <div class="message__content">
+                    <span class="message__bubble">뛰어 갈게!</span>
                 </div>
             </li>
         </ul>
