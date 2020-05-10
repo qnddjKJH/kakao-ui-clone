@@ -38,3 +38,17 @@
     font-weight: 700;
     font-size: 10px;
 }
+
+/*@keyframes showNavBar {
+    from {
+        transform: translateY(80px);
+    } to {
+        transform: none;
+    }
+}
+
+.nav {
+    transform: translateY(80px);
+    animation: showNavBar 0.5s ease-out forwards;
+    animation-delay: 0.5s;
+}*/
